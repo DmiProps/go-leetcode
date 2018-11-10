@@ -1,2 +1,2 @@
 # solution-leetcode
-Task solution of Leetcode.
+Solve problems of Leetcode.
