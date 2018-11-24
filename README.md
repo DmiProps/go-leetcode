@@ -1,2 +1,2 @@
-# solution-leetcode
-Solve problems of Leetcode.
+# go-leetcode
+Solve problems of Leetcode on Go.
