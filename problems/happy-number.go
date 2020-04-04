@@ -2,7 +2,7 @@ package problems
 
 import "fmt"
 
-// ProblemDay2...
+// ProblemDay2 - run test problem
 func ProblemDay2() {
 
 	fmt.Println(2, isHappy(2))

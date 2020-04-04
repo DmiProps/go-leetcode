@@ -6,6 +6,6 @@ import (
 
 func main() {
 
-	problems.ProblemDay3()
+	problems.ProblemDay4()
 
 }

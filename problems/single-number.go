@@ -2,7 +2,7 @@ package problems
 
 import "fmt"
 
-// ProblemDay1...
+// ProblemDay1 - run test problem
 func ProblemDay1() {
 
 	test1 := []int{2, 2, 1}
