@@ -2,7 +2,7 @@ package problems
 
 import "fmt"
 
-// Biweekly23_1 - test 1
+// Biweekly23_1 - 1399. Count Largest Group
 func Biweekly23_1() {
 
 	fmt.Println(countLargestGroup(13))

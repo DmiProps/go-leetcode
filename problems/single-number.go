@@ -2,7 +2,7 @@ package problems
 
 import "fmt"
 
-// ProblemDay1 - run test problem
+// ProblemDay1 - 136. Single Number
 func ProblemDay1() {
 
 	test1 := []int{2, 2, 1}

@@ -2,7 +2,7 @@ package problems
 
 import "fmt"
 
-// Problem14 run test problem
+// Problem14 - 14. Longest Common Prefix
 func Problem14() {
 
 	test1 := []string{"flower", "flow", "flight"}

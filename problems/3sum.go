@@ -5,7 +5,7 @@ import (
 	"sort"
 )
 
-// Problem15 run test problem
+// Problem15 - 15. 3Sum
 func Problem15() {
 
 	//test := []int{-1, 0, 1, 2, -1, -4}

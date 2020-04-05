@@ -2,13 +2,13 @@ package problems
 
 import "fmt"
 
-// Problem127 is runs solution of problem and shows result.
+// Problem127 - 127. Word Ladder
 func Problem127() {
 
 	// variant 1: ans = 5
 	beginWord := "hit"
 	endWord := "cog"
-	wordList := []string {"hot", "dot", "dog", "lot", "log", "cog"}
+	wordList := []string{"hot", "dot", "dog", "lot", "log", "cog"}
 
 	// variant 2: ans = 2
 	/*beginWord := "a"
@@ -21,12 +21,12 @@ func Problem127() {
 
 // Problem #127 (medium level): Word Ladder.
 func ladderLength(beginWord string, endWord string, wordList []string) int {
-	
-	endIndex := -1;
+
+	endIndex := -1
 
 	transMap := make([][]int, len(wordList), len(wordList))
-	work	 := make([][2]int, 0, len(wordList))
-	used	 := make([]bool, len(wordList), len(wordList))
+	work := make([][2]int, 0, len(wordList))
+	used := make([]bool, len(wordList), len(wordList))
 
 	for i, s := range wordList {
 		if transMap[i] == nil {
@@ -59,8 +59,8 @@ func ladderLength(beginWord string, endWord string, wordList []string) int {
 	if endIndex < 0 {
 		return 0
 	}
-	
-	list := []int{};
+
+	list := []int{}
 	cur := 0
 	for len(work) > cur {
 		list = transMap[work[cur][0]]
@@ -69,7 +69,7 @@ func ladderLength(beginWord string, endWord string, wordList []string) int {
 				continue
 			}
 			if i == endIndex {
-				return work[cur][1] + 1;
+				return work[cur][1] + 1
 			}
 			work = append(work, [2]int{i, work[cur][1] + 1})
 			used[i] = true
@@ -82,11 +82,11 @@ func ladderLength(beginWord string, endWord string, wordList []string) int {
 
 func isTransform(from string, to string) bool {
 
-	f := false;
+	f := false
 	for i := 0; i < len(from); i++ {
 		if from[i] != to[i] {
 			if f {
-				return false;
+				return false
 			}
 			f = true
 		}

@@ -2,7 +2,7 @@ package problems
 
 import "fmt"
 
-// ProblemDay2 - run test problem
+// ProblemDay2 - 202. Happy Number
 func ProblemDay2() {
 
 	fmt.Println(2, isHappy(2))

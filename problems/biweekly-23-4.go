@@ -5,7 +5,7 @@ import (
 	"sort"
 )
 
-// Biweekly23_4 - test 4
+// Biweekly23_4 - 1402. Reducing Dishes
 func Biweekly23_4() {
 
 	test1 := []int{-1, -8, 0, 5, -9}

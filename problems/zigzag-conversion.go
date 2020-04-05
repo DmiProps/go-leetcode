@@ -2,7 +2,7 @@ package problems
 
 import "fmt"
 
-// Problem6 is runs solution of problem and shows result.
+// Problem6 - 6. ZigZag Conversion
 func Problem6() {
 
 	fmt.Println("Got:\n", convert("PAYPALISHIRING", 3))

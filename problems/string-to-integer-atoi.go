@@ -6,7 +6,7 @@ import (
 	"strings"
 )
 
-// Problem8 run test problem
+// Problem8 - 8. String to Integer (atoi)
 func Problem8() {
 
 	tests := [...]string{

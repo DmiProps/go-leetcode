@@ -2,7 +2,7 @@ package problems
 
 import "fmt"
 
-// ProblemDay4 - run test problem
+// ProblemDay4 - 283. Move Zeroes
 func ProblemDay4() {
 
 	test1 := []int{0, 1, 0, 3, 12}

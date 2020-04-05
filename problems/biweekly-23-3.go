@@ -2,7 +2,7 @@ package problems
 
 import "fmt"
 
-// Biweekly23_3 - test 3
+// Biweekly23_3 - 1401. Circle and Rectangle Overlapping
 func Biweekly23_3() {
 
 	fmt.Println(checkOverlap(1, 0, 0, 1, -1, 3, 1))

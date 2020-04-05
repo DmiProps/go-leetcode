@@ -4,7 +4,7 @@ import (
 	"fmt"
 )
 
-// Biweekly23_2 - test 2
+// Biweekly23_2 - 1400. Construct K Palindrome Strings
 func Biweekly23_2() {
 
 	fmt.Println(canConstruct("annabelle", 2))
