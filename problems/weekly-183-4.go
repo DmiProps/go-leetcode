@@ -26,45 +26,27 @@ func Weekly183_4() {
 
 func stoneGameIII(stoneValue []int) string {
 
-	a := make([]int, 3)
-	b := make([]int, 3)
+	ans := 0
+	//max := 0
 
-	isTie := false
+	for idx := len(stoneValue) - 1; idx >= 0; idx-- {
 
-	for i := 0; i < 3 && i < len(stoneValue); i++ {
-		a[i], b[i] = stoneGameIIIBob(stoneValue, i+1)
-		if a[i] > b[i] {
-			return "Alice"
-		} else if a[i] == b[i] {
-			isTie = true
+		if stoneValue[idx] < 0 {
+			ans = -1
+		} else if stoneValue[idx] > 0 {
+			ans = 1
+		} else {
+			ans = 0
 		}
+		//max = stoneValue[idx]
+
 	}
-	if isTie {
-		return "Tie"
+	if ans < 0 {
+		return "Bob"
 	}
-	return "Bob"
-
-}
-
-func stoneGameIIIBob(stoneValue []int, pos int) (int, int) {
-
-	/*a := make([]int, 3)
-	b := make([]int, 3)
-
-	isTie := false
-
-	for i := pos; i < 3 + pos && i < len(stoneValue); i++ {
-		a[i], b[i] = stoneGameIIIAlice(stoneValue, i+1)
-		if b[i] > a[i] {
-			return "Alice"
-		} else if a[i] == b[i] {
-			isTie = true
-		}
+	if ans > 0 {
+		return "Alice"
 	}
-	if isTie {
-		return "Tie"
-	}
-	return "Bob"*/
-	return 0, 0
+	return "Tie"
 
 }
