@@ -22,31 +22,51 @@ func Weekly183_4() {
 	test5 := []int{-1, -2, -3}
 	fmt.Println(stoneGameIII(test5))
 
+	test6 := []int{11, 10, 7, -6, -17, -5, 6, -1, 6, -13, 13, 2, 4, -16, 13, 13, 4, 0, 16, 16, -16, 5, -16}
+	fmt.Println(stoneGameIII(test6))
+
 }
 
 func stoneGameIII(stoneValue []int) string {
 
-	ans := 0
-	//max := 0
+	l := len(stoneValue)
 
-	for idx := len(stoneValue) - 1; idx >= 0; idx-- {
+	sum := make([]int, l+1)
+	for idx := l - 1; idx >= 0; idx-- {
+		sum[idx] = sum[idx+1] + stoneValue[idx]
+	}
 
-		if stoneValue[idx] < 0 {
-			ans = -1
-		} else if stoneValue[idx] > 0 {
-			ans = 1
-		} else {
-			ans = 0
+	max := make([]int, l)
+	for idx := l - 1; idx >= 0 && idx > l-4; idx-- {
+		max[idx] = sum[idx]
+	}
+
+	for idx := l - 4; idx >= 0; idx-- {
+		min := 0
+		for j := idx + 1; j < l && j < idx+4; j++ {
+			if j == idx+1 || max[j] < min {
+				min = max[j]
+			}
 		}
-		//max = stoneValue[idx]
+		max[idx] = sum[idx] - min
+	}
 
+	a := max[0]
+	//b :=
+
+	for i := 1; i < 3 && i < l; i++ {
+		if max[i] > a {
+			a = max[i]
+		}
 	}
-	if ans < 0 {
-		return "Bob"
+
+	b := sum[0] - a
+	if a == b {
+		return "Tie"
 	}
-	if ans > 0 {
+	if a > b {
 		return "Alice"
 	}
-	return "Tie"
+	return "Bob"
 
 }
