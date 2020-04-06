@@ -6,6 +6,6 @@ import (
 
 func main() {
 
-	problems.Problem26()
+	problems.Problem189()
 
 }
