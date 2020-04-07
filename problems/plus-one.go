@@ -3,7 +3,7 @@ package problems
 import "fmt"
 
 // Problem66 - 66. Plus One
-func ProblemX() {
+func Problem66() {
 	test1 := []int{1, 2, 3}
 	fmt.Println(plusOne(test1))
 	test2 := []int{4, 3, 2, 1}
