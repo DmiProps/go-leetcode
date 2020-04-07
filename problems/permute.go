@@ -2,7 +2,8 @@ package problems
 
 import "fmt"
 
-func ProblemX() {
+// ProblemPermute - phone mck problem
+func ProblemPermute() {
 
 	//test1 := []int{1, 2, 3}
 	//fmt.Println(permute(test1))

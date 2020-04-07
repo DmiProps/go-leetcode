@@ -5,7 +5,8 @@ import (
 	"strings"
 )
 
-func ProblemY() {
+// ProblemTrie - Phone mock problem
+func ProblemTrie() {
 
 	obj := Constructor()
 	obj.Insert("apple")
