@@ -1,0 +1,196 @@
+{
+    "#value": [
+        {
+            "#type": "jv8:ValueTable",
+            "#value": {
+                "column": [
+                    {
+                        "Name": {
+                            "#type": "jxs:string",
+                            "#value": "Ref"
+                        }
+                    },
+                    {
+                        "Name": {
+                            "#type": "jxs:string",
+                            "#value": "DeletionMark"
+                        }
+                    },
+                    {
+                        "Name": {
+                            "#type": "jxs:string",
+                            "#value": "Code"
+                        }
+                    },
+                    {
+                        "Name": {
+                            "#type": "jxs:string",
+                            "#value": "Description"
+                        }
+                    },
+                    {
+                        "Name": {
+                            "#type": "jxs:string",
+                            "#value": "Num"
+                        }
+                    },
+                    {
+                        "Name": {
+                            "#type": "jxs:string",
+                            "#value": "Dat"
+                        }
+                    },
+                    {
+                        "Name": {
+                            "#type": "jxs:string",
+                            "#value": "ID"
+                        }
+                    },
+                    {
+                        "Name": {
+                            "#type": "jxs:string",
+                            "#value": "CatRef"
+                        }
+                    },
+                    {
+                        "Name": {
+                            "#type": "jxs:string",
+                            "#value": "ComplexRef"
+                        }
+                    },
+                    {
+                        "Name": {
+                            "#type": "jxs:string",
+                            "#value": "ComplexType"
+                        }
+                    },
+                    {
+                        "Name": {
+                            "#type": "jxs:string",
+                            "#value": "En"
+                        }
+                    },
+                    {
+                        "Name": {
+                            "#type": "jxs:string",
+                            "#value": "Predefined"
+                        }
+                    },
+                    {
+                        "Name": {
+                            "#type": "jxs:string",
+                            "#value": "PredefinedDataName"
+                        }
+                    }
+                ],
+                "row": [
+                    [
+                        {
+                            "#type": "jcfg:CatalogRef.Бригады",
+                            "#value": "cc715bc7-7bd9-11ea-afae-d0abd57af863"
+                        },
+                        {
+                            "#type": "jxs:boolean",
+                            "#value": false
+                        },
+                        {
+                            "#type": "jxs:string",
+                            "#value": "000000001"
+                        },
+                        {
+                            "#type": "jxs:string",
+                            "#value": "Source 1"
+                        },
+                        {
+                            "#type": "jxs:decimal",
+                            "#value": 63722195396631
+                        },
+                        {
+                            "#type": "jxs:dateTime",
+                            "#value": "2020-04-11T09:49:56"
+                        },
+                        {
+                            "#type": "jv8:UUID",
+                            "#value": "697c712c-8cab-4a4a-9b38-d0446580c3f8"
+                        },
+                        {
+                            "#type": "jcfg:CatalogRef.Бригады",
+                            "#value": "00000000-0000-0000-0000-000000000000"
+                        },
+                        {
+                            "#type": "jcfg:CatalogRef.ВариантыГрафиковЛизинга",
+                            "#value": "2ea8857e-7aa0-11ea-afae-d0abd57af863"
+                        },
+                        {
+                            "#type": "jxs:dateTime",
+                            "#value": "2020-04-11T00:00:00"
+                        },
+                        {
+                            "#type": "jcfg:EnumRef.ВариантыВажностиВзаимодействия",
+                            "#value": "Низкая"
+                        },
+                        {
+                            "#type": "jxs:boolean",
+                            "#value": false
+                        },
+                        {
+                            "#type": "jxs:string",
+                            "#value": ""
+                        }
+                    ]
+                ]
+            }
+        },
+        {
+            "#type": "jv8:ValueTable",
+            "#value": {
+                "column": [
+                    {
+                        "Name": {
+                            "#type": "jxs:string",
+                            "#value": "Ref"
+                        }
+                    },
+                    {
+                        "Name": {
+                            "#type": "jxs:string",
+                            "#value": "LineNumber"
+                        }
+                    },
+                    {
+                        "Name": {
+                            "#type": "jxs:string",
+                            "#value": "Str"
+                        }
+                    },
+                    {
+                        "Name": {
+                            "#type": "jxs:string",
+                            "#value": "Num"
+                        }
+                    }
+                ],
+                "row": [
+                    [
+                        {
+                            "#type": "jcfg:CatalogRef.Бригады",
+                            "#value": "cc715bc7-7bd9-11ea-afae-d0abd57af863"
+                        },
+                        {
+                            "#type": "jxs:decimal",
+                            "#value": 1
+                        },
+                        {
+                            "#type": "jxs:string",
+                            "#value": "1"
+                        },
+                        {
+                            "#type": "jxs:decimal",
+                            "#value": 1
+                        }
+                    ]
+                ]
+            }
+        }
+    ]
+}

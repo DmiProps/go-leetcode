@@ -1,0 +1,237 @@
+<Array xmlns="http://v8.1c.ru/8.1/data/core" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Value xsi:type="ValueTable">
+		<column>
+			<Name xsi:type="xs:string">Ref</Name>
+			<ValueType>
+				<Type xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d5p1:CatalogRef._Source</Type>
+				<Type>Null</Type>
+			</ValueType>
+			<Title>Ref</Title>
+			<Width xsi:type="xs:decimal">25</Width>
+		</column>
+		<column>
+			<Name xsi:type="xs:string">DataVersion</Name>
+			<ValueType>
+				<Type>xs:string</Type>
+				<Type>Null</Type>
+				<StringQualifiers>
+					<Length>12</Length>
+					<AllowedLength>Fixed</AllowedLength>
+				</StringQualifiers>
+			</ValueType>
+			<Title>DataVersion</Title>
+			<Width xsi:type="xs:decimal">12</Width>
+		</column>
+		<column>
+			<Name xsi:type="xs:string">DeletionMark</Name>
+			<ValueType>
+				<Type>xs:boolean</Type>
+				<Type>Null</Type>
+			</ValueType>
+			<Title>DeletionMark</Title>
+			<Width xsi:type="xs:decimal">2</Width>
+		</column>
+		<column>
+			<Name xsi:type="xs:string">Code</Name>
+			<ValueType>
+				<Type>xs:string</Type>
+				<Type>Null</Type>
+				<StringQualifiers>
+					<Length>9</Length>
+					<AllowedLength>Variable</AllowedLength>
+				</StringQualifiers>
+			</ValueType>
+			<Title>Code</Title>
+			<Width xsi:type="xs:decimal">9</Width>
+		</column>
+		<column>
+			<Name xsi:type="xs:string">Description</Name>
+			<ValueType>
+				<Type>xs:string</Type>
+				<Type>Null</Type>
+				<StringQualifiers>
+					<Length>25</Length>
+					<AllowedLength>Variable</AllowedLength>
+				</StringQualifiers>
+			</ValueType>
+			<Title>Description</Title>
+			<Width xsi:type="xs:decimal">25</Width>
+		</column>
+		<column>
+			<Name xsi:type="xs:string">Num</Name>
+			<ValueType>
+				<Type>Null</Type>
+				<Type>xs:decimal</Type>
+				<NumberQualifiers>
+					<Digits>15</Digits>
+					<FractionDigits>0</FractionDigits>
+					<AllowedSign>Any</AllowedSign>
+				</NumberQualifiers>
+			</ValueType>
+			<Title>Num</Title>
+			<Width xsi:type="xs:decimal">15</Width>
+		</column>
+		<column>
+			<Name xsi:type="xs:string">Dat</Name>
+			<ValueType>
+				<Type>xs:dateTime</Type>
+				<Type>Null</Type>
+				<DateQualifiers>
+					<DateFractions>DateTime</DateFractions>
+				</DateQualifiers>
+			</ValueType>
+			<Title>Dat</Title>
+			<Width xsi:type="xs:decimal">19</Width>
+		</column>
+		<column>
+			<Name xsi:type="xs:string">ID</Name>
+			<ValueType>
+				<Type>Null</Type>
+				<Type>UUID</Type>
+			</ValueType>
+			<Title>ID</Title>
+			<Width xsi:type="xs:decimal">25</Width>
+		</column>
+		<column>
+			<Name xsi:type="xs:string">CatRef</Name>
+			<ValueType>
+				<Type xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d5p1:CatalogRef._Source</Type>
+				<Type>Null</Type>
+			</ValueType>
+			<Title>CatRef</Title>
+			<Width xsi:type="xs:decimal">25</Width>
+		</column>
+		<column>
+			<Name xsi:type="xs:string">ComplexRef</Name>
+			<ValueType>
+				<Type xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d5p1:CatalogRef.ExchangeServers</Type>
+				<Type xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d5p1:CatalogRef.ExchangeHosts</Type>
+				<Type>Null</Type>
+			</ValueType>
+			<Title>ComplexRef</Title>
+			<Width xsi:type="xs:decimal">25</Width>
+		</column>
+		<column>
+			<Name xsi:type="xs:string">ComplexType</Name>
+			<ValueType>
+				<Type>xs:string</Type>
+				<Type>xs:dateTime</Type>
+				<Type>Null</Type>
+				<StringQualifiers>
+					<Length>10</Length>
+					<AllowedLength>Variable</AllowedLength>
+				</StringQualifiers>
+				<DateQualifiers>
+					<DateFractions>Date</DateFractions>
+				</DateQualifiers>
+			</ValueType>
+			<Title>ComplexType</Title>
+			<Width xsi:type="xs:decimal">10</Width>
+		</column>
+		<column>
+			<Name xsi:type="xs:string">En</Name>
+			<ValueType>
+				<Type xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d5p1:EnumRef._En</Type>
+				<Type>Null</Type>
+			</ValueType>
+			<Title>En</Title>
+			<Width xsi:type="xs:decimal">25</Width>
+		</column>
+		<column>
+			<Name xsi:type="xs:string">Predefined</Name>
+			<ValueType>
+				<Type>xs:boolean</Type>
+				<Type>Null</Type>
+			</ValueType>
+			<Title>Predefined</Title>
+			<Width xsi:type="xs:decimal">2</Width>
+		</column>
+		<column>
+			<Name xsi:type="xs:string">PredefinedDataName</Name>
+			<ValueType>
+				<Type>xs:string</Type>
+				<Type>Null</Type>
+				<StringQualifiers>
+					<Length>256</Length>
+					<AllowedLength>Variable</AllowedLength>
+				</StringQualifiers>
+			</ValueType>
+			<Title>PredefinedDataName</Title>
+			<Width xsi:type="xs:decimal">256</Width>
+		</column>
+		<row>
+			<Value xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config" xsi:type="d4p1:CatalogRef._Source">cc715bc7-7bd9-11ea-afae-d0abd57af863</Value>
+			<Value xsi:type="xs:string">AAAABwAAAAA=</Value>
+			<Value xsi:type="xs:boolean">false</Value>
+			<Value xsi:type="xs:string">000000001</Value>
+			<Value xsi:type="xs:string">Source 1</Value>
+			<Value xsi:type="xs:decimal">63722195396631</Value>
+			<Value xsi:type="xs:dateTime">2020-04-11T09:49:56</Value>
+			<Value xsi:type="UUID">697c712c-8cab-4a4a-9b38-d0446580c3f8</Value>
+			<Value xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config" xsi:type="d4p1:CatalogRef._Source">00000000-0000-0000-0000-000000000000</Value>
+			<Value xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config" xsi:type="d4p1:CatalogRef.ExchangeHosts">2ea8857e-7aa0-11ea-afae-d0abd57af863</Value>
+			<Value xsi:type="xs:dateTime">2020-04-11T00:00:00</Value>
+			<Value xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config" xsi:type="d4p1:EnumRef._En">Val2</Value>
+			<Value xsi:type="xs:boolean">false</Value>
+			<Value xsi:type="xs:string"/>
+		</row>
+	</Value>
+	<Value xsi:type="ValueTable">
+		<column>
+			<Name xsi:type="xs:string">Ref</Name>
+			<ValueType>
+				<Type xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d5p1:CatalogRef._Source</Type>
+				<Type>Null</Type>
+			</ValueType>
+			<Title>Ref</Title>
+			<Width xsi:type="xs:decimal">25</Width>
+		</column>
+		<column>
+			<Name xsi:type="xs:string">LineNumber</Name>
+			<ValueType>
+				<Type>Null</Type>
+				<Type>xs:decimal</Type>
+				<NumberQualifiers>
+					<Digits>5</Digits>
+					<FractionDigits>0</FractionDigits>
+					<AllowedSign>Nonnegative</AllowedSign>
+				</NumberQualifiers>
+			</ValueType>
+			<Title>LineNumber</Title>
+			<Width xsi:type="xs:decimal">5</Width>
+		</column>
+		<column>
+			<Name xsi:type="xs:string">Str</Name>
+			<ValueType>
+				<Type>xs:string</Type>
+				<Type>Null</Type>
+				<StringQualifiers>
+					<Length>10</Length>
+					<AllowedLength>Variable</AllowedLength>
+				</StringQualifiers>
+			</ValueType>
+			<Title>Str</Title>
+			<Width xsi:type="xs:decimal">10</Width>
+		</column>
+		<column>
+			<Name xsi:type="xs:string">Num</Name>
+			<ValueType>
+				<Type>Null</Type>
+				<Type>xs:decimal</Type>
+				<NumberQualifiers>
+					<Digits>10</Digits>
+					<FractionDigits>3</FractionDigits>
+					<AllowedSign>Any</AllowedSign>
+				</NumberQualifiers>
+			</ValueType>
+			<Title>Num</Title>
+			<Width xsi:type="xs:decimal">10</Width>
+		</column>
+		<row>
+			<Value xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config" xsi:type="d4p1:CatalogRef._Source">cc715bc7-7bd9-11ea-afae-d0abd57af863</Value>
+			<Value xsi:type="xs:decimal">1</Value>
+			<Value xsi:type="xs:string">1</Value>
+			<Value xsi:type="xs:decimal">1</Value>
+		</row>
+	</Value>
+</Array>
