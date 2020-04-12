@@ -7,7 +7,13 @@
                     {
                         "Name": {
                             "#type": "jxs:string",
-                            "#value": "Ref"
+                            "#value": "Date"
+                        }
+                    },
+                    {
+                        "Name": {
+                            "#type": "jxs:string",
+                            "#value": "Number"
                         }
                     },
                     {
@@ -19,174 +25,167 @@
                     {
                         "Name": {
                             "#type": "jxs:string",
-                            "#value": "Code"
+                            "#value": "Posted"
                         }
                     },
                     {
                         "Name": {
                             "#type": "jxs:string",
-                            "#value": "Description"
+                            "#value": "КассаККМ"
                         }
                     },
                     {
                         "Name": {
                             "#type": "jxs:string",
-                            "#value": "Num"
+                            "#value": "КассаККМ0Owner"
                         }
                     },
                     {
                         "Name": {
                             "#type": "jxs:string",
-                            "#value": "Dat"
+                            "#value": "КассаККМ0Наименование"
                         }
                     },
                     {
                         "Name": {
                             "#type": "jxs:string",
-                            "#value": "ID"
+                            "#value": "Организация"
                         }
                     },
                     {
                         "Name": {
                             "#type": "jxs:string",
-                            "#value": "CatRef"
+                            "#value": "Организация0Наименование"
                         }
                     },
                     {
                         "Name": {
                             "#type": "jxs:string",
-                            "#value": "ComplexRef"
+                            "#value": "Организация0ИНН"
                         }
                     },
                     {
                         "Name": {
                             "#type": "jxs:string",
-                            "#value": "ComplexType"
+                            "#value": "Организация0КПП"
                         }
                     },
                     {
                         "Name": {
                             "#type": "jxs:string",
-                            "#value": "En"
+                            "#value": "Ответственный"
                         }
                     },
                     {
                         "Name": {
                             "#type": "jxs:string",
-                            "#value": "Predefined"
+                            "#value": "Ответственный0Наименование"
                         }
                     },
                     {
                         "Name": {
                             "#type": "jxs:string",
-                            "#value": "PredefinedDataName"
+                            "#value": "Склад"
+                        }
+                    },
+                    {
+                        "Name": {
+                            "#type": "jxs:string",
+                            "#value": "Склад0Наименование"
+                        }
+                    },
+                    {
+                        "Name": {
+                            "#type": "jxs:string",
+                            "#value": "ЦенаВключаетНДС"
+                        }
+                    },
+                    {
+                        "Name": {
+                            "#type": "jxs:string",
+                            "#value": "Комментарий"
+                        }
+                    },
+                    {
+                        "Name": {
+                            "#type": "jxs:string",
+                            "#value": "ПоРезультатамИнвентаризации"
                         }
                     }
                 ],
                 "row": [
                     [
                         {
-                            "#type": "jcfg:CatalogRef.Бригады",
-                            "#value": "cc715bc7-7bd9-11ea-afae-d0abd57af863"
+                            "#type": "jxs:dateTime",
+                            "#value": "2015-04-05T13:10:30"
+                        },
+                        {
+                            "#type": "jxs:string",
+                            "#value": "ТДРТ-000003"
                         },
                         {
                             "#type": "jxs:boolean",
                             "#value": false
                         },
                         {
-                            "#type": "jxs:string",
-                            "#value": "000000001"
+                            "#type": "jxs:boolean",
+                            "#value": true
+                        },
+                        {
+                            "#type": "jcfg:CatalogRef.КассыККМ",
+                            "#value": "b61125a3-41ba-11dd-ac9d-0015e9b8c48d"
+                        },
+                        {
+                            "#type": "jcfg:CatalogRef.Организации",
+                            "#value": "b6112593-41ba-11dd-ac9d-0015e9b8c48d"
                         },
                         {
                             "#type": "jxs:string",
-                            "#value": "Source 1"
+                            "#value": "ТД \"Комплексный\"(Магазин \"Бытовая техника\") 2 эт"
                         },
                         {
-                            "#type": "jxs:decimal",
-                            "#value": 63722195396631
+                            "#type": "jcfg:CatalogRef.Организации",
+                            "#value": "b6112593-41ba-11dd-ac9d-0015e9b8c48d"
                         },
                         {
-                            "#type": "jxs:dateTime",
-                            "#value": "2020-04-11T09:49:56"
+                            "#type": "jxs:string",
+                            "#value": "Торговый дом \"Комплексный\" "
                         },
                         {
-                            "#type": "jv8:UUID",
-                            "#value": "697c712c-8cab-4a4a-9b38-d0446580c3f8"
+                            "#type": "jxs:string",
+                            "#value": "7725192493"
                         },
                         {
-                            "#type": "jcfg:CatalogRef.Бригады",
-                            "#value": "00000000-0000-0000-0000-000000000000"
+                            "#type": "jxs:string",
+                            "#value": "772501001"
                         },
                         {
-                            "#type": "jcfg:CatalogRef.ВариантыГрафиковЛизинга",
-                            "#value": "2ea8857e-7aa0-11ea-afae-d0abd57af863"
+                            "#type": "jcfg:CatalogRef.Пользователи",
+                            "#value": "b611258d-41ba-11dd-ac9d-0015e9b8c48d"
                         },
                         {
-                            "#type": "jxs:dateTime",
-                            "#value": "2020-04-11T00:00:00"
+                            "#type": "jxs:string",
+                            "#value": "Борисов Федор Михайлович"
                         },
                         {
-                            "#type": "jcfg:EnumRef.ВариантыВажностиВзаимодействия",
-                            "#value": "Низкая"
+                            "#type": "jcfg:CatalogRef.Магазины",
+                            "#value": "b6112592-41ba-11dd-ac9d-0015e9b8c48d"
+                        },
+                        {
+                            "#type": "jxs:string",
+                            "#value": "Магазин \"Бытовая техника\""
                         },
                         {
                             "#type": "jxs:boolean",
-                            "#value": false
+                            "#value": true
                         },
                         {
                             "#type": "jxs:string",
                             "#value": ""
-                        }
-                    ]
-                ]
-            }
-        },
-        {
-            "#type": "jv8:ValueTable",
-            "#value": {
-                "column": [
-                    {
-                        "Name": {
-                            "#type": "jxs:string",
-                            "#value": "Ref"
-                        }
-                    },
-                    {
-                        "Name": {
-                            "#type": "jxs:string",
-                            "#value": "LineNumber"
-                        }
-                    },
-                    {
-                        "Name": {
-                            "#type": "jxs:string",
-                            "#value": "Str"
-                        }
-                    },
-                    {
-                        "Name": {
-                            "#type": "jxs:string",
-                            "#value": "Num"
-                        }
-                    }
-                ],
-                "row": [
-                    [
-                        {
-                            "#type": "jcfg:CatalogRef.Бригады",
-                            "#value": "cc715bc7-7bd9-11ea-afae-d0abd57af863"
                         },
                         {
-                            "#type": "jxs:decimal",
-                            "#value": 1
-                        },
-                        {
-                            "#type": "jxs:string",
-                            "#value": "1"
-                        },
-                        {
-                            "#type": "jxs:decimal",
-                            "#value": 1
+                            "#type": "jxs:boolean",
+                            "#value": false
                         }
                     ]
                 ]
