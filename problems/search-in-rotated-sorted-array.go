@@ -1,6 +1,8 @@
 package problems
 
-import "fmt"
+import (
+	"fmt"
+)
 
 // Problem33 - 33. Search in Rotated Sorted Array
 func Problem33() {
