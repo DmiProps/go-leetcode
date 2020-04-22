@@ -1,11 +1,9 @@
 package main
 
-import (
-	"github.com/DmiProps/go-leetcode/problems"
-)
+import "github.com/DmiProps/go-leetcode/problems"
 
 func main() {
 
-	problems.Problem1008()
+	problems.Problem560()
 
 }

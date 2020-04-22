@@ -3,7 +3,7 @@ package problems
 import "fmt"
 
 // Problem1008 - 1008. Construct Binary Search Tree from Preorder Traversal
-func Problem1008() {
+func Problem1008(a int) {
 
 	/*test1 := TreeNode2{Val: 8}
 	test1.Left = TreeNode2{Val: 5}
