@@ -4,6 +4,6 @@ import "github.com/DmiProps/go-leetcode/problems"
 
 func main() {
 
-	problems.Problem383()
+	problems.Problem387()
 
 }
